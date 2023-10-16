@@ -12,8 +12,7 @@ function saySomething(whatToSay) {
 }   
 
 const result = add(number1, number2);   
-const outputText = "The sum is " + result + ".";  
-saySomething(outputText);  
+const outputText = " The sum is " + result + "."; 
 
 //business logic
 function sub(number3, number4) {
@@ -29,8 +28,7 @@ function saySomething(whatToSay) {
 }   
 
 const result2 = sub(number3, number4);  
-const outputText2 = "The remainder is " + result2 + ".";   
-saySomething(outputText2);   
+const outputText2 = " The remainder is " + result2 + ".";   
 
 //business logic
 
@@ -48,8 +46,7 @@ function saySomething(whatToSay) {
 }  
 
 const result3 = mult(number5, number6);   
-const outputText3 = "The result is " + result3 + ".";   
-saySomething(outputText3);  
+const outputText3 = " The result is " + result3 + ".";   
 
 //business logic
 
@@ -67,8 +64,7 @@ function saySomething(whatToSay) {
 }  
 
 const result4 = div(number7, number8);
-const outputText4 = "The result of the division is " + result4 + ".";
-saySomething(outputText4);
+const outputText4 = " The result of the division is " + result4 + ".";
 
 //business logic
 
@@ -86,5 +82,6 @@ function saySomething(whatToSay) {
 } 
 
 const result5 = rem(number9, number10); 
-const outputText5 = "The remainder is " + result5 + ".";
-saySomething(outputText5); 
+const outputText5 = " The remainder is " + result5 + ".";
+
+saySomething(outputText + outputText2 + outputText3 + outputText4 + outputText5);
