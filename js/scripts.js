@@ -71,7 +71,6 @@ function rem(number1, number2) {
 //user interface logic
 
 
-
 function saySomething(whatToSay) {   
   window.alert(whatToSay);    
 } 
